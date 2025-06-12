@@ -75,4 +75,13 @@ CLV is one of the most important metrics for any customer-centric business. We e
 | `Customer ID`  | Unique ID assigned to each customer        |
 | `Country`      | Country of the customer                    |
 
+###  How to Run
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Abhi1459/ecom-customer-suite.git
+   cd ecom-customer-suite
+
+
 
