@@ -93,20 +93,20 @@ CLV is one of the most important metrics for any customer-centric business. We e
 
 #### 🛍️ Sales Performance
 - **Monthly Sales Trend**
-  ![Monthly](Visuals/Monthly_sale_trend.png)
+  ![Monthly Sales](Visuals/Monthly_sale_trend.png)
 
 - **Weekly Sales Trend**
-  ![Weekly](Visuals/weekly_sale_trend.png)
+  ![Weekly Sales](Visuals/weekly_sale_trend.png)
 
 - **Yearly Sales Trend**
-  ![Yearly](Visuals/Yearly_sale_trend.png)
+  ![Yearly Sales](Visuals/Yearly_sale_trend.png)
 
 - **Hourly Sales Trend**
-  ![Hourly](Visuals/Hourly_sale_trend.png)
+  ![Hourly Sales](Visuals/Hourly_sale_trend.png)
 
 #### 📦 Product Analysis
 - **Top 10 Products by Quantity Sold**
-  ![Top Qty](Visuals/Top10product_by_qty_sold.png)
+  ![Top Quantity](Visuals/Top10product_by_qty_sold.png)
 
 - **Top 10 Products by Revenue**
   ![Top Revenue](Visuals/Top10product_by_revenue.png)
@@ -114,29 +114,27 @@ CLV is one of the most important metrics for any customer-centric business. We e
 - **Products with Highest Cancellations**
   ![Cancellations](Visuals/Product_with_higher_cancellation.png)
 
-#### 🌍 Country & Customer Insights
+#### 🌍 Customer & Country Insights
 - **Countries with Highest Sales and Returns**
-  ![Countries](Visuals/Countries_with_highest_sales_and_returns.jpeg)
+  ![Country Sales](Visuals/Countries_with_highest_sales_and_returns.jpeg)
 
-- **Customer ID with Lowest Spending**
-  ![Low Spend](Visuals/CustomerID_with_lowest_spending.png)
+- **Customers with Lowest Spending**
+  ![Low Spending](Visuals/CustomerID_with_lowest_spending.png)
 
-#### 🔁 Retention & Churn
+#### 🔁 Retention & Revenue Metrics
 - **Quarterly Customer Retention (Heatmap)**
-  ![Retention](Visuals/Quarterly_customer_retention.jpeg)
+  ![Customer Retention](Visuals/Quarterly_customer_retention.jpeg)
 
 - **Quarterly Churn Rate (Heatmap)**
-  ![Churn](Visuals/Quarterly_churn_Rate.jpeg)
+  ![Churn Rate](Visuals/Quarterly_churn_Rate.jpeg)
 
-- **Cohort-Based Revenue Retention + NRR (Heatmap)**
-  ![Cohort](Visuals/Cohort_based_revenue_retention_and_NRR.jpeg)
+- **Cohort-Based Revenue Retention & NRR**
+  ![Cohort Retention & NRR](Visuals/Cohort_based_revenue_retention_and_NRR.jpeg)
 
 - **Customer Lifetime Value by Cohort**
   ![CLV](Visuals/CLV_by_cohort_and_lifetime_value_per_customer.jpeg)
 
 
-- **Weekly Sales Trend**
-  ![Weekly Sales](Visuals/weekly_sale_trend.png)
 
 
 
