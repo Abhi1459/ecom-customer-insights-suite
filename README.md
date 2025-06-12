@@ -1,4 +1,4 @@
- ## Key Analysis Highlights & Business Insights
+ ## Project Description
 
 ecom-customer-suite is a comprehensive customer and revenue analytics project built using the Online Retail II dataset. The goal is to empower e-commerce businesses with actionable insights on sales performance, customer retention, cohort behavior, and lifetime value—all derived through rigorous data wrangling, exploratory analysis, and advanced segmentation techniques.
 
@@ -6,19 +6,19 @@ ecom-customer-suite is a comprehensive customer and revenue analytics project bu
 
 ---
 
-###  Data Preparation & Feature Engineering
+###  Data Preparation
 
 A strong analytical foundation was established through meticulous data preprocessing. Missing values were addressed, data types corrected, and canceled or erroneous transactions were removed to ensure reliability. By engineering temporal features—such as month, quarter, week, and hour—we enabled fine-grained time-series analysis. This groundwork was critical for revealing seasonal trends, customer behavior patterns, and product dynamics, setting the stage for all downstream business insights.
 
 ---
 
-### General Sales Performance & Temporal Trends
+### Sales Analytics and  Trends Analytics
 
 To understand the sales engine of the business, we explored revenue patterns across various time granularities. Trends were visualized on monthly, quarterly, weekly, and even hourly scales, helping pinpoint periods of high and low customer activity. These insights are instrumental for capacity planning, marketing campaign scheduling, and identifying underperforming periods. Knowing when customers are most likely to buy allows businesses to optimize staffing, logistics, and promotional efforts.
 
 ---
 
-###  Product-Level Performance Analysis
+###  Product-Level  Analysis
 
 The next layer of analysis dove into product dynamics. We identified which items were driving the bulk of sales—and which were lagging. This not only highlights bestsellers for potential bundling and upselling strategies but also flags poor performers that may require reevaluation or promotion. Return and cancellation patterns were also studied, revealing customer dissatisfaction signals or logistical issues. By calculating each product’s average revenue contribution, we provided a profitability lens critical for inventory and pricing strategies.
 
@@ -57,5 +57,22 @@ Not all customers contribute equally to the bottom line. By segmenting total rev
 ###  Customer Lifetime Value (CLV) Estimation
 
 CLV is one of the most important metrics for any customer-centric business. We estimated the total revenue each customer is expected to generate throughout their relationship with the business using average revenue per user and estimated customer lifespan. This allowed us to identify the most valuable customer segments—those worth retaining at all costs—and supported the development of retention programs, tiered loyalty systems, and reactivation workflows. By shifting focus from short-term transactions to long-term relationships, businesses can significantly improve profitability.
+### 📦 Dataset
+
+- **Source**: [UCI Online Retail II Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
+- **Duration**: December 2009 to December 2011
+- **Description**: This dataset contains transactional data from a UK-based online retailer. It includes over 500,000 records of customer purchases, capturing detailed invoice-level data for both domestic and international customers.
+
+#### Key Features:
+| Column         | Description                               |
+|----------------|-------------------------------------------|
+| `InvoiceNo`    | Unique identifier for each transaction     |
+| `StockCode`    | Unique product/item code                   |
+| `Description`  | Name/description of the product            |
+| `Quantity`     | Number of units sold per transaction       |
+| `InvoiceDate`  | Date and time of the transaction           |
+| `Price`        | Unit price of the product                  |
+| `Customer ID`  | Unique ID assigned to each customer        |
+| `Country`      | Country of the customer                    |
 
 
