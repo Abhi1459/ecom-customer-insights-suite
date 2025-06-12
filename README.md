@@ -57,7 +57,7 @@ Not all customers contribute equally to the bottom line. By segmenting total rev
 ###  Customer Lifetime Value (CLV) Estimation
 
 CLV is one of the most important metrics for any customer-centric business. We estimated the total revenue each customer is expected to generate throughout their relationship with the business using average revenue per user and estimated customer lifespan. This allowed us to identify the most valuable customer segments—those worth retaining at all costs—and supported the development of retention programs, tiered loyalty systems, and reactivation workflows. By shifting focus from short-term transactions to long-term relationships, businesses can significantly improve profitability.
-### 📦 Dataset
+###  Dataset
 
 - **Source**: [UCI Online Retail II Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
 - **Duration**: December 2009 to December 2011
@@ -83,5 +83,54 @@ CLV is one of the most important metrics for any customer-centric business. We e
    git clone https://github.com/Abhi1459/ecom-customer-suite.git
    cd ecom-customer-suite
 
+###  Libraries Used
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- jupyter
+###  Sample Visuals
+
+- **Customer Lifetime Value by Cohort**
+  ![CLV](visuals/CLV_by_cohort_and_ligetime_value_per_consumer.jpeg)
+
+- **Cohort-Based Revenue Retention and Net Revenue Retention**
+  ![Cohort & NRR](visuals/Cohort_based_revenue_retention_and _NRR.jpeg)
+
+- **Top Countries by Sales and Returns**
+  ![Country Sales](visuals/Counteries_with_highest_sale_and_by_return.jpeg)
+
+- **Lowest Spending Customers**
+  ![Low Spend](visuals/CustomerID _with_lowest_spending.png)
+
+- **Hourly Sales Trend**
+  ![Hourly Sales](visuals/Hourly_sale_trend.png)
+
+- **Monthly Sales Trend**
+  ![Monthly Sales](visuals/Monthly_sale_trend.png)
+
+- **Products with Highest Cancellations**
+  ![Cancellations](visuals/Product_with_higher_cancellation.png)
+
+- **Quarterly Churn Rate**
+  ![Churn](visuals/Quarterly_churn_Rate.jpeg)
+
+- **Quarterly Customer Retention**
+  ![Retention](visuals/Quarterly_customer_retention.jpeg)
+
+- **Quarterly Sales Trend**
+  ![Quarterly Sales](visuals/Quarterly_sale_trend.png)
+
+- **Top 10 Products by Quantity Sold**
+  ![Top Qty](visuals/Top10product_by_qty_sold.png)
+
+- **Top 10 Products by Revenue**
+  ![Top Revenue](visuals/Top10product_by_revenue.png)
+
+- **Yearly Sales Trend**
+  ![Yearly Sales](visuals/Yearly_sale_trend.png)
+
+- **Weekly Sales Trend**
+  ![Weekly Sales](visuals/weekly_sale_trend.png)
 
 
