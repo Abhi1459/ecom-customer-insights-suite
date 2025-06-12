@@ -89,48 +89,54 @@ CLV is one of the most important metrics for any customer-centric business. We e
 - matplotlib
 - seaborn
 - jupyter
-###  Sample Visuals
+### 📊 Visual Insights
 
-- **Customer Lifetime Value by Cohort**
-  ![CLV](visuals/CLV_by_cohort_and_ligetime_value_per_consumer.jpeg)
-
-- **Cohort-Based Revenue Retention and Net Revenue Retention**
-  ![Cohort & NRR](visuals/Cohort_based_revenue_retention_and _NRR.jpeg)
-
-- **Top Countries by Sales and Returns**
-  ![Country Sales](visuals/Counteries_with_highest_sale_and_by_return.jpeg)
-
-- **Lowest Spending Customers**
-  ![Low Spend](visuals/CustomerID _with_lowest_spending.png)
-
-- **Hourly Sales Trend**
-  ![Hourly Sales](visuals/Hourly_sale_trend.png)
-
+#### 🛍️ Sales Performance
 - **Monthly Sales Trend**
-  ![Monthly Sales](visuals/Monthly_sale_trend.png)
-
-- **Products with Highest Cancellations**
-  ![Cancellations](visuals/Product_with_higher_cancellation.png)
-
-- **Quarterly Churn Rate**
-  ![Churn](visuals/Quarterly_churn_Rate.jpeg)
-
-- **Quarterly Customer Retention**
-  ![Retention](visuals/Quarterly_customer_retention.jpeg)
-
-- **Quarterly Sales Trend**
-  ![Quarterly Sales](visuals/Quarterly_sale_trend.png)
-
-- **Top 10 Products by Quantity Sold**
-  ![Top Qty](visuals/Top10product_by_qty_sold.png)
-
-- **Top 10 Products by Revenue**
-  ![Top Revenue](visuals/Top10product_by_revenue.png)
-
-- **Yearly Sales Trend**
-  ![Yearly Sales](visuals/Yearly_sale_trend.png)
+  ![Monthly](Visuals/Monthly_sale_trend.png)
 
 - **Weekly Sales Trend**
-  ![Weekly Sales](visuals/weekly_sale_trend.png)
+  ![Weekly](Visuals/weekly_sale_trend.png)
+
+- **Yearly Sales Trend**
+  ![Yearly](Visuals/Yearly_sale_trend.png)
+
+- **Hourly Sales Trend**
+  ![Hourly](Visuals/Hourly_sale_trend.png)
+
+#### 📦 Product Analysis
+- **Top 10 Products by Quantity Sold**
+  ![Top Qty](Visuals/Top10product_by_qty_sold.png)
+
+- **Top 10 Products by Revenue**
+  ![Top Revenue](Visuals/Top10product_by_revenue.png)
+
+- **Products with Highest Cancellations**
+  ![Cancellations](Visuals/Product_with_higher_cancellation.png)
+
+#### 🌍 Country & Customer Insights
+- **Countries with Highest Sales and Returns**
+  ![Countries](Visuals/Countries_with_highest_sales_and_returns.jpeg)
+
+- **Customer ID with Lowest Spending**
+  ![Low Spend](Visuals/CustomerID_with_lowest_spending.png)
+
+#### 🔁 Retention & Churn
+- **Quarterly Customer Retention (Heatmap)**
+  ![Retention](Visuals/Quarterly_customer_retention.jpeg)
+
+- **Quarterly Churn Rate (Heatmap)**
+  ![Churn](Visuals/Quarterly_churn_Rate.jpeg)
+
+- **Cohort-Based Revenue Retention + NRR (Heatmap)**
+  ![Cohort](Visuals/Cohort_based_revenue_retention_and_NRR.jpeg)
+
+- **Customer Lifetime Value by Cohort**
+  ![CLV](Visuals/CLV_by_cohort_and_lifetime_value_per_customer.jpeg)
+
+
+- **Weekly Sales Trend**
+  ![Weekly Sales](Visuals/weekly_sale_trend.png)
+
 
 
