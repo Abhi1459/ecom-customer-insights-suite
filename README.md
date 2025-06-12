@@ -134,6 +134,90 @@ CLV is one of the most important metrics for any customer-centric business. We e
 - **Customer Lifetime Value by Cohort**
   ![CLV](Visuals/CLV_by_cohort_and_lifetime_value_per_customer.jpeg)
 
+ ##  Deep-Dive into Data Quality, Anomalies & Business Insights
+
+While working on the Online Retail dataset, I realized that meaningful analysis requires more than just cleaning rows and columns. It involves **understanding what the data represents**, and more importantly, how certain patterns or anomalies might affect real-world business decisions.
+
+---
+
+###  Cancelled Orders – Understanding Negative Quantities
+
+One of the first things I noticed was that some invoices began with the letter **'C'**. At first glance, they looked similar to other entries, but on closer inspection, almost all of them had **negative quantities**. When I investigated further, I discovered that these were actually **cancelled orders or customer returns**.
+
+This insight was important — over **90% of the negative quantity rows** in the entire dataset came from these invoices. Including them in sales metrics like total revenue, CLV (Customer Lifetime Value), or retention could completely distort the results. So, I designed my filters to exclude or net them off against actual sales, which gave me much more **realistic business KPIs**.
+
+It was a reminder that not every row of data means money in the bank — context matters.
+
+---
+
+###  Adjusted Bad Debt – The Quiet Distorters
+
+Another unexpected pattern came from invoices labeled as **“A”**. These rows typically had **negative prices**, and often zero quantity. They weren’t returns or refunds — they appeared to be **accounting adjustments** or **financial write-offs** made internally.
+
+From a financial reporting standpoint, these shouldn’t be mixed with genuine transactions. Including them would result in misleading trends — for example, a sudden drop in average selling price, or artificially negative revenue.
+
+To avoid this, I excluded these entries from metrics like **average unit price**, **product profitability**, and **monthly revenue trends**. It reinforced how important it is to ask: *“Is this a real sale, or just a backend adjustment?”*
+
+---
+
+###  Real Sales Invoices – Recognizing Genuine Patterns
+
+Something that helped me separate clean data from noise was a small but consistent pattern: **real sales invoices always started with a number**, typically **4** or **5**. These invoices showed typical retail behavior, such as positive quantities, reasonable prices, and customer details.
+
+This turned into a reliable rule for me. Whenever I was generating dashboards or running customer segmentation, I used this prefix logic to focus only on **authentic sales activity**. It saved a lot of time, especially when performing cohort or churn analysis, where including false positives (like returns or bad debt entries) would’ve led to incorrect insights.
+
+---
+
+###  Outliers in Product Pricing – The Strange and the Surprising
+
+While analyzing pricing patterns, I discovered a few interesting outliers that taught me a lot about product-level behavior.
+
+#### The Most Expensive Product
+
+One product titled `'Manual'` stood out immediately. It was priced at a staggering **£38,970.00**, with a quantity of **-1**. There were no other transactions for this product.
+
+At first, I thought this might be a premium item — but a deeper look suggested it could be a **manual data entry error**, a placeholder, or maybe a test case someone forgot to remove.
+
+Rather than removing it blindly, I flagged it as a **data anomaly** and kept it excluded from all financial calculations. This ensured that one odd entry didn’t distort metrics like highest product revenue or average order value.
+
+####  The Cheapest Product
+
+On the other end of the spectrum was a product called `'PADS TO MATCH ALL CUSHIONS'`, priced at just **£0.001 per unit**. Effectively, you could get 100 items for a penny.
+
+This clearly wasn’t intended to generate profit. It seemed like a **giveaway item**, part of a bundle, or something used for marketing purposes.
+
+Again, I didn’t delete it — but I marked it as a **non-revenue driver**. That way, my pricing and profitability analysis remained clean, while still acknowledging the presence of low-value items that may play a role in customer experience or packaging strategy.
+
+---
+
+###  Largest Order – A Closer Look at Bulk Buyers
+
+When reviewing the highest-value transactions, one sale stood out:
+
+- **Product**: `PAPER CRAFT , LITTLE BIRDIE`  
+- **Quantity**: 80,995 units  
+- **Unit Price**: £2.08  
+- **Total Order Value**: **£168,467.60**  
+- **Customer ID**: 16446  
+- **Invoice Date**: December 9, 2011
+
+This was no ordinary purchase — it was likely made by a **corporate buyer, wholesaler, or reseller**, especially considering the size and timing (just before the holiday season).
+
+From a business angle, this highlighted that the platform wasn’t only catering to B2C customers. These kinds of buyers have a huge impact on revenue and fulfillment, and I made sure to **segment them separately** from regular customers during my CLV and retention analysis. Treating them the same would’ve distorted per-customer averages and skewed trends unfairly.
+
+
+
+By spending time understanding not just what was wrong, but **why** it looked that way, I was able to:
+
+- Build stronger logic for identifying valid sales.
+- Make smarter decisions on what to include or exclude in KPIs.
+- Extract deeper business meaning from what at first seemed like “bad data”.
+
+  
+
+ 
+
+ 
 
 
 
