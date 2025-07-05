@@ -89,49 +89,59 @@ CLV is one of the most important metrics for any customer-centric business. We e
 - matplotlib
 - seaborn
 - jupyter
-### 📊 Visual Insights
+###  Visual Insights
 
-#### 🛍️ Sales Performance
-- **Monthly Sales Trend**
-  ![Monthly Sales](Visuals/Monthly_sale_trend.png)
+####  Retention & Revenue Metrics
 
-- **Weekly Sales Trend**
-  ![Weekly Sales](Visuals/weekly_sale_trend.png)
+- **Quarterly Customer Retention (Heatmap)**  
+  ![Customer Retention](Visuals/Quarterly_customer_retention.jpeg)
 
-- **Yearly Sales Trend**
-  ![Yearly Sales](Visuals/Yearly_sale_trend.png)
+- **Quarterly Churn Rate (Heatmap)**  
+  ![Churn Rate](Visuals/Quarterly_churn_Rate.jpeg)
 
-- **Hourly Sales Trend**
-  ![Hourly Sales](Visuals/Hourly_sale_trend.png)
+- **Customer Lifetime Value by Cohort**  
+  ![CLV](Visuals/CLV_and_LTV.jpeg)
 
-#### 📦 Product Analysis
-- **Top 10 Products by Quantity Sold**
-  ![Top Quantity](Visuals/Top10product_by_qty_sold.png)
+- **Cohort-Based Revenue Retention & NRR**  
+  ![Cohort Retention & NRR](Visuals/Cohort_based_revenue_retention_and_NRR.jpeg)
 
-- **Top 10 Products by Revenue**
+---
+
+####  Product-Level Insights
+
+- **Top 10 Products by Revenue**  
   ![Top Revenue](Visuals/Top10product_by_revenue.png)
 
-- **Products with Highest Cancellations**
+- **Top 10 Products by Quantity Sold**  
+  ![Top Quantity](Visuals/Top10product_by_qty_sold.png)
+
+- **Products with Highest Cancellations**  
   ![Cancellations](Visuals/Product_with_higher_cancellation.png)
 
-#### 🌍 Customer & Country Insights
+---
+
+####  Customer & Country Insights
+
 - **Countries with Highest Sales and Returns**  
   ![Country Sales](Visuals/country_sales.jpeg)
 
 - **Customers with Lowest Spending**  
   ![Low Spending](Visuals/low_spending.png)
-#### 🔁 Retention & Revenue Metrics
-- **Quarterly Customer Retention (Heatmap)**
-  ![Customer Retention](Visuals/Quarterly_customer_retention.jpeg)
 
-- **Quarterly Churn Rate (Heatmap)**
-  ![Churn Rate](Visuals/Quarterly_churn_Rate.jpeg)
+---
 
-- **Cohort-Based Revenue Retention & NRR**
-  ![Cohort Retention & NRR](Visuals/Cohort_based_revenue_retention_and_NRR.jpeg)
+####  Sales Performance Trends (Bottom Section)
 
-- **Customer Lifetime Value by Cohort**
-  ![CLV](Visuals/CLV_and_LTV.jpeg)
+ 
+
+- **Monthly Sales Trend**  
+  ![Monthly Sales](Visuals/Monthly_sale_trend.png)
+
+- **Weekly Sales Trend**  
+  ![Weekly Sales](Visuals/weekly_sale_trend.png)
+
+- **Hourly Sales Trend**  
+  ![Hourly Sales](Visuals/Hourly_sale_trend.png)
 
  ##  Deep-Dive into Data Quality, Anomalies & Business Insights
 
