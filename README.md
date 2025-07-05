@@ -115,12 +115,11 @@ CLV is one of the most important metrics for any customer-centric business. We e
   ![Cancellations](Visuals/Product_with_higher_cancellation.png)
 
 #### 🌍 Customer & Country Insights
-- **Countries with Highest Sales and Returns**
-  ![Country Sales](Visuals/Countries_with_highest_sales_and_returns.jpeg)
+- **Countries with Highest Sales and Returns**  
+  ![Country Sales](Visuals/country_sales.jpeg)
 
-- **Customers with Lowest Spending**
-  ![Low Spending](Visuals/CustomerID_with_lowest_spending.png)
-
+- **Customers with Lowest Spending**  
+  ![Low Spending](Visuals/low_spending.png)
 #### 🔁 Retention & Revenue Metrics
 - **Quarterly Customer Retention (Heatmap)**
   ![Customer Retention](Visuals/Quarterly_customer_retention.jpeg)
@@ -132,7 +131,7 @@ CLV is one of the most important metrics for any customer-centric business. We e
   ![Cohort Retention & NRR](Visuals/Cohort_based_revenue_retention_and_NRR.jpeg)
 
 - **Customer Lifetime Value by Cohort**
-  ![CLV](Visuals/CLV_by_cohort_and_lifetime_value_per_customer.jpeg)
+  ![CLV](Visuals/CLV_and_LTV.jpeg)
 
  ##  Deep-Dive into Data Quality, Anomalies & Business Insights
 
